@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tweetMe/settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetMe/settings/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweetMe/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweetMe/settings/local.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tweetMe/settings/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -25,20 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tweetMe/settings/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="local.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tweetMe/settings/local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="563">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -68,9 +59,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tweetMe/settings/production.py" />
-        <option value="$PROJECT_DIR$/tweetMe/settings/local.py" />
         <option value="$PROJECT_DIR$/tweetMe/settings/base.py" />
         <option value="$PROJECT_DIR$/tweetMe/settings/__init__.py" />
+        <option value="$PROJECT_DIR$/tweetMe/settings/local.py" />
       </list>
     </option>
   </component>
@@ -98,18 +89,7 @@
             <path>
               <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
               <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
               <item name="tweetMe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
-              <item name="tweetMe" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,6 +102,10 @@
     <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\TweetMe" />
+      <recent name="D:\Projects\TweetMe\tweetMe" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\TweetMe\tweetMe\settings" />
     </key>
@@ -155,7 +139,7 @@
     <frame x="800" y="0" width="800" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3887468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3887468" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -188,20 +172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tweetMe/settings/production.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweetMe/settings/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tweetMe/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -211,11 +181,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tweetMe/settings/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetMe/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tweetMe/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
