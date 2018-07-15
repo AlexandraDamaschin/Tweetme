@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="home.html created">
+    <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/commands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tweetMe/settings/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweetMe/settings/local.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,17 +28,35 @@
       <file leaf-file-name="local.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweetMe/settings/local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1239">
-              <caret line="59" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+            <state relative-caret-position="584">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tweets/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commands.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/commands.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -64,8 +83,10 @@
         <option value="$PROJECT_DIR$/tweetMe/settings/local.py" />
         <option value="$PROJECT_DIR$/src/tweetMe/views.py" />
         <option value="$PROJECT_DIR$/src/tweetMe/urls.py" />
-        <option value="$PROJECT_DIR$/src/tweetMe/settings/local.py" />
         <option value="$PROJECT_DIR$/src/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/tweets/models.py" />
+        <option value="$PROJECT_DIR$/src/tweetMe/settings/local.py" />
+        <option value="$PROJECT_DIR$/src/commands.txt" />
       </list>
     </option>
   </component>
@@ -98,7 +119,14 @@
               <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
               <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
+              <item name="tweetMe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tweetMe" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,11 +229,19 @@
       <option name="project" value="LOCAL" />
       <updated>1531675387707</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="startapp tweets">
+      <created>1531676969582</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1531676969582</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="0" width="800" height="866" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3005115" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -236,7 +272,8 @@
     <MESSAGE value="home templtae doesn`t exist" />
     <MESSAGE value="home.html created" />
     <MESSAGE value="bootstrap added" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap added" />
+    <MESSAGE value="startapp tweets" />
+    <option name="LAST_COMMIT_MESSAGE" value="startapp tweets" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/tweetMe/views.py">
@@ -314,17 +351,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweetMe/settings/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="59" column="53" selection-start-line="58" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tweetMe/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tweets/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
