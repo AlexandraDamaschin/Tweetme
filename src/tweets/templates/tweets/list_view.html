@@ -6,10 +6,11 @@
 </head>
 <body>
 {% for obj in object_list %}
-{{obj.content}}
-{{obj.user}}
-{{obj.timestamp}}
-{{obj.timestamp|timesince}}
+<p>{{obj.content}}
+    {{obj.user}}
+    {{obj.timestamp}}
+    {{obj.timestamp|timesince}}
+</p>
 <br>
 
 {% endfor %}

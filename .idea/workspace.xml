@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail_view.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail_view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_view.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="list_view.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="252">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/delete_confirm.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/update_view.html" />
         <option value="$PROJECT_DIR$/src/tweets/views.py" />
-        <option value="$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html" />
+        <option value="$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html" />
       </list>
     </option>
   </component>
@@ -358,7 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1531851581354</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="get details about a row from database view">
+      <created>1531857913759</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1531857913759</updated>
+    </task>
+    <task id="LOCAL-00024" summary="iterate through a for loop">
+      <created>1531858225556</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1531858225556</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +421,9 @@
     <MESSAGE value="views created" />
     <MESSAGE value="get from database list and by id" />
     <MESSAGE value="my first query set" />
-    <option name="LAST_COMMIT_MESSAGE" value="my first query set" />
+    <MESSAGE value="get details about a row from database view" />
+    <MESSAGE value="iterate through a for loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterate through a for loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,17 +604,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html">
+    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="357">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html">
+    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="252">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
