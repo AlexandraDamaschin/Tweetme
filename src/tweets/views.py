@@ -23,6 +23,11 @@ class TweetListView(ListView):
     template_name = "tweets/list_view.html"
     querySet = Tweet.objects.all()
 
+    def get_context_data(self, *args, **kwargs):
+        context = super(TweetListView, self).get_context_data(*args, **kwargs)
+        print(context)
+        return context
+
 
 # Retrieve information from database
 def tweet_detail_view(request, id=1):
