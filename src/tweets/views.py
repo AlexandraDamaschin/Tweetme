@@ -6,6 +6,8 @@ from .models import Tweet
 
 # Create your views here.
 
+# CREATE
+
 # UPDATE
 
 # DELETE
