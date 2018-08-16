@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="model form">
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tweets/validators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tweets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +17,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tweets/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validators.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tweets/validators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweets/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweets/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="294">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -102,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/templates/home.html" />
         <option value="$PROJECT_DIR$/src/tweetMe/settings/local.py" />
         <option value="$PROJECT_DIR$/src/commands.txt" />
-        <option value="$PROJECT_DIR$/src/tweets/models.py" />
         <option value="$PROJECT_DIR$/src/tweets/url.py" />
         <option value="$PROJECT_DIR$/src/tweetMe/urls.py" />
         <option value="$PROJECT_DIR$/src/tweets/templates/list_view.html" />
@@ -115,10 +137,12 @@
         <option value="$PROJECT_DIR$/src/tweets/views.py" />
         <option value="$PROJECT_DIR$/src/tweets/forms.py" />
         <option value="$PROJECT_DIR$/src/tweets/admin.py" />
+        <option value="$PROJECT_DIR$/src/tweets/models.py" />
+        <option value="$PROJECT_DIR$/src/tweets/templates/tweets/validators.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="800" />
     <option name="width" value="800" />
     <option name="height" value="866" />
@@ -162,14 +186,6 @@
               <item name="tweets" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -183,14 +199,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\TweetMe\tweetMe\settings" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\TweetMe\src\tweets" />
       <recent name="D:\Projects\TweetMe\src\tweets\templates\tweets" />
       <recent name="D:\Projects\TweetMe\src" />
       <recent name="D:\Projects\TweetMe" />
       <recent name="D:\Projects\TweetMe\tweetMe" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\TweetMe\tweetMe\settings" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -433,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534363151646</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Model Form">
+      <created>1534445384772</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1534445384772</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -463,7 +487,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="/admin is working" />
     <MESSAGE value="home templtae doesn`t exist" />
     <MESSAGE value="home.html created" />
     <MESSAGE value="bootstrap added" />
@@ -488,7 +511,8 @@
     <MESSAGE value="dynamic urls" />
     <MESSAGE value="changes" />
     <MESSAGE value="model form" />
-    <option name="LAST_COMMIT_MESSAGE" value="model form" />
+    <MESSAGE value="Model Form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Model Form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -636,16 +660,6 @@
     <entry file="file://$PROJECT_DIR$/src/tweets/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweets/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -711,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commands.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tweets/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -727,10 +734,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tweets/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/commands.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tweets/validators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tweets/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
