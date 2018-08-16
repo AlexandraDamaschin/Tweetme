@@ -14,6 +14,7 @@ class TweetCreateView(CreateView):
     success_url = '/tweet/create'
 
     def form_valid(self, form):
+        # set user to tweet by default
         form.instance.user = self.request.user
         return super(TweetCreateView, self).form_valid(form)
 
