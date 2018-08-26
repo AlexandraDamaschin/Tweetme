@@ -16,7 +16,7 @@ class TweetCreateView(FormUserNeededMixin, CreateView):
     success_url = '/tweet/create'
     # login_url = '/admin'
 
-
+ 
 # def form_valid(self, form):
 #     # set user to tweet by default
 #     form.instance.user = self.request.user
