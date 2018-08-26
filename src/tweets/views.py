@@ -21,7 +21,7 @@ class TweetUpdateView(LoginRequiredMixin, UserOwnerMixin, UpdateView):
     queryset = Tweet.objects.all()
     form_class = TweetModelForm
     template_name = 'tweets/update_view.html'
-    success_url = "/tweet/"
+    success_url = '/tweet/'
 
 
 # def form_valid(self, form):
@@ -47,17 +47,17 @@ class TweetUpdateView(LoginRequiredMixin, UserOwnerMixin, UpdateView):
 # LIST/SEARCH
 
 class TweetDetailView(DetailView):
-    template_name = "tweets/detail_view.html"
+    # template_name = "tweets/detail_view.html"
     querySet = Tweet.objects.all()
 
-    def get_object(self):
-        pk = self.kwargs.get("pk")
-        obj = get_object_or_404(Tweet, pk=pk)
-        return Tweet.objects.get(id=pk)
+    # def get_object(self):
+    #     pk = self.kwargs.get("pk")
+    #     obj = get_object_or_404(Tweet, pk=pk)
+    #     return Tweet.objects.get(id=pk)
 
 
 class TweetListView(ListView):
-    template_name = "tweets/list_view.html"
+    # template_name = "tweets/list_view.html"
     querySet = Tweet.objects.all()
 
     def get_context_data(self, *args, **kwargs):
@@ -67,21 +67,21 @@ class TweetListView(ListView):
 
 
 # Retrieve information from database
-def tweet_detail_view(request, id=1):
-    obj = Tweet.objects.get(id=id)  # GET from database
+def tweet_detail_view(request, pk=None):
+    # obj = Tweet.objects.get(id=id)  # GET from database
+    obj = get_object_or_404(Tweet, pk=pk)
     print(obj)
     context = {
         "object": obj
     }
     return render(request, "tweets/detail_view.html", context)
 
-
-def tweet_list_view(request):
-    queryset = Tweet.objects.all()
-    for obj in queryset:
-        print(obj.content)
-    print(queryset)
-    context = {
-        "object_list": queryset
-    }
-    return render(request, "tweets/list_view.html", context)
+# def tweet_list_view(request):
+#     queryset = Tweet.objects.all()
+#     for obj in queryset:
+#         print(obj.content)
+#     print(queryset)
+#     context = {
+#         "object_list": queryset
+#     }
+#     return render(request, "tweets/list_view.html", context)

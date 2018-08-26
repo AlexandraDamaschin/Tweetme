@@ -3,6 +3,7 @@ from django.forms.utils import ErrorList
 
 
 class FormUserNeededMixin(object):
+
     def form_valid(self, form):
         if self.request.user.is_aduthenticated():
             form.instance.user = self.request.user
