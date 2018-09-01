@@ -15,11 +15,11 @@
 </p>
 
 {% empty %}
-{% if request.GET.q %}
-<p>No tweets found.</p>
-{% else %}
-<p>No tweets yet.</p>
-{% endif%}
+    {% if request.GET.q %}
+    <p>No tweets found.</p>
+    {% else %}
+    <p>No tweets yet.</p>
+    {% endif%}
 
 {%endfor%}
 
