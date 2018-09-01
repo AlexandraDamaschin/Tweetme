@@ -8,6 +8,7 @@ from django.views.generic import (
     ListView,
     DeleteView,
 )
+from django.db.models import Q
 
 from .models import Tweet
 from .forms import TweetModelForm
@@ -44,7 +45,16 @@ class TweetDetailView(DetailView):
 
 
 class TweetListView(ListView):
-    querySet = Tweet.objects.all()
+    def get_queryset(self, *args, **kwargs):
+        qs = Tweet.objects.all()
+        print(self.request.GET)
+        query = self.request.GET.get("q", None)
+        if query is not None:
+            qs = qs.filter(
+                Q(content__icontains=query) |
+                Q(user__username__icontains=query)
+            )
+        return qs
 
     def get_context_data(self, *args, **kwargs):
         context = super(TweetListView, self).get_context_data(*args, **kwargs)
