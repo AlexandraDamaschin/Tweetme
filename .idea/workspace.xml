@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/templates/tweets/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tweets/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -55,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweet_list.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tweet_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="210">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -149,11 +146,11 @@
         <option value="$PROJECT_DIR$/src/tweets/forms.py" />
         <option value="$PROJECT_DIR$/src/tweets/mixins.py" />
         <option value="$PROJECT_DIR$/src/tweets/models.py" />
-        <option value="$PROJECT_DIR$/src/tweets/views.py" />
         <option value="$PROJECT_DIR$/src/tweetMe/urls.py" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/form.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html" />
+        <option value="$PROJECT_DIR$/src/tweets/views.py" />
       </list>
     </option>
   </component>
@@ -255,20 +252,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529774762549</updated>
-    </task>
-    <task id="LOCAL-00008" summary="bootstrap added">
-      <created>1531675387707</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1531675387707</updated>
-    </task>
-    <task id="LOCAL-00009" summary="startapp tweets">
-      <created>1531676969582</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1531676969582</updated>
     </task>
     <task id="LOCAL-00010" summary="commands and migrations">
       <created>1531677401236</created>
@@ -599,14 +582,28 @@
       <option name="project" value="LOCAL" />
       <updated>1535819824340</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="tweet list">
+      <created>1535820227134</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1535820227134</updated>
+    </task>
+    <task id="LOCAL-00058" summary="advanced searching">
+      <created>1535820431783</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1535820431783</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="0" width="800" height="866" extended-state="0" />
+    <frame x="800" y="0" width="800" height="866" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33503836" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33503836" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -629,8 +626,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="model form" />
-    <MESSAGE value="Model Form" />
     <MESSAGE value="Validation" />
     <MESSAGE value="create view" />
     <MESSAGE value="User must be logged in to continue." />
@@ -654,7 +649,9 @@
     <MESSAGE value="errors" />
     <MESSAGE value="fixed error" />
     <MESSAGE value="search form" />
-    <option name="LAST_COMMIT_MESSAGE" value="search form" />
+    <MESSAGE value="tweet list" />
+    <MESSAGE value="advanced searching" />
+    <option name="LAST_COMMIT_MESSAGE" value="advanced searching" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -890,16 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweets/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -937,8 +924,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="210">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tweets/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
