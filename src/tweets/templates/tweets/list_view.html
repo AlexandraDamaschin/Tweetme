@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>List view</title>
-</head>
-<body>
-{% for obj in object_list %}
-<p>{{obj.content}}
-    {{obj.user}}
-    {{obj.timestamp}}
-    {{obj.timestamp|timesince}}
-</p>
-<br>
+{% extends "base.html" %}
+{% block content %}
 
-(% empty %)
-<p>No tweets yet.</p>
+    {% for obj in object_list %}
+        <p>{{obj.content}}
+            {{obj.user}}
+            {{obj.timestamp}}
+            {{obj.timestamp|timesince}}
+        </p>
+    {% endfor %}
 
-{% endfor %}
-
-</body>
-</html>
+{% endblock content %}
