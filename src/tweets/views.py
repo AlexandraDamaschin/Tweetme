@@ -16,7 +16,6 @@ from .mixins import FormUserNeededMixin, UserOwnerMixin
 
 
 # Create your views here.
-
 # CREATE
 class TweetCreateView(FormUserNeededMixin, CreateView):
     form_class = TweetModelForm
@@ -52,8 +51,8 @@ class TweetListView(ListView):
         query = self.request.GET.get("q", None)
         if query is not None:
             qs = qs.filter(
-                content__icontains=query
-                # Q(user__username__icontains=query)
+                Q(content__icontains=query) |
+                Q(user__username__icontains=query)
             )
         return qs
 
