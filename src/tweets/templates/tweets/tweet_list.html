@@ -1,27 +1,20 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta charset="UTF-8">
-    <title>Tweet List</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block content %}
+    {% include "tweets/search_form.html" %}</br>
 
-{% include "tweets/search_form.html" %}</br>
+    {% for object in object_list %}<br>
+        {{ object.content }}</br>
+        {{object.user}}</br>
+        {{ object.timestamp|timesince}} ago </br>
+        </p>
 
-{% for object in object_list %}<br>
-{{ object.content }}</br>
-{{object.user}}</br>
-{{ object.timestamp|timesince}} ago </br>
-</p>
+        {% empty %}
+        {% if request.GET.q %}
+            <p>No tweets found.</p>
+        {% else %}
+          <p>No tweets yet.</p>
+        {% endif%}
 
-{% empty %}
-    {% if request.GET.q %}
-    <p>No tweets found.</p>
-    {% else %}
-    <p>No tweets yet.</p>
-    {% endif%}
+    {%endfor%}
 
-{%endfor%}
-
-</body>
-</html>
+{% endblock content %}
