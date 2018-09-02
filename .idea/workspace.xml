@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweets/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -72,15 +90,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commands.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commands.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="list_view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,18 +104,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tweets/mixins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +129,6 @@
         <option value="$PROJECT_DIR$/tweetMe/settings/__init__.py" />
         <option value="$PROJECT_DIR$/tweetMe/settings/local.py" />
         <option value="$PROJECT_DIR$/src/tweetMe/views.py" />
-        <option value="$PROJECT_DIR$/src/templates/home.html" />
         <option value="$PROJECT_DIR$/src/tweetMe/settings/local.py" />
         <option value="$PROJECT_DIR$/src/commands.txt" />
         <option value="$PROJECT_DIR$/src/tweets/url.py" />
@@ -153,6 +149,8 @@
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" />
         <option value="$PROJECT_DIR$/src/tweets/views.py" />
+        <option value="$PROJECT_DIR$/src/templates/base.html" />
+        <option value="$PROJECT_DIR$/src/templates/home.html" />
       </list>
     </option>
   </component>
@@ -185,27 +183,18 @@
               <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
               <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tweetMe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
               <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TweetMe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TweetMe" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tweets" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="tweets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -254,13 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529774762549</updated>
-    </task>
-    <task id="LOCAL-00014" summary="defining fields">
-      <created>1531677998849</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1531677998849</updated>
     </task>
     <task id="LOCAL-00015" summary="timezone.now">
       <created>1531678256918</created>
@@ -598,14 +580,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535881203477</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="http://localhost:8000/tweet/?q=tweet">
+      <created>1535881494604</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1535881494604</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="0" width="800" height="866" extended-state="0" />
+    <frame x="-9" y="-9" width="1618" height="884" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33503836" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16375" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -628,7 +617,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create view" />
     <MESSAGE value="User must be logged in to continue." />
     <MESSAGE value=" User Needed &amp; Login Required Mixins" />
     <MESSAGE value="form.html" />
@@ -653,7 +641,8 @@
     <MESSAGE value="tweet list" />
     <MESSAGE value="advanced searching" />
     <MESSAGE value="q dictionary works on:&#10;http://localhost:8000/tweet/?q=somesearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="q dictionary works on:&#10;http://localhost:8000/tweet/?q=somesearch" />
+    <MESSAGE value="http://localhost:8000/tweet/?q=tweet" />
+    <option name="LAST_COMMIT_MESSAGE" value="http://localhost:8000/tweet/?q=tweet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -774,13 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -934,10 +916,24 @@
     <entry file="file://$PROJECT_DIR$/src/tweets/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
