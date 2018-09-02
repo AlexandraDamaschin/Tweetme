@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d0ddbaf-65af-44fc-bc0e-4974ab57e138" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,15 +28,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -77,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweet_list.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tweet_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="434">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -95,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_view.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list_view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="294">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -138,17 +138,17 @@
         <option value="$PROJECT_DIR$/src/tweets/models.py" />
         <option value="$PROJECT_DIR$/src/tweetMe/urls.py" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/form.html" />
-        <option value="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" />
         <option value="$PROJECT_DIR$/src/tweets/views.py" />
         <option value="$PROJECT_DIR$/src/templates/base.html" />
         <option value="$PROJECT_DIR$/src/templates/home.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/delete_view.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/detail_view.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_detail.html" />
-        <option value="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/update_view.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/create_view.html" />
         <option value="$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html" />
+        <option value="$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html" />
+        <option value="$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html" />
       </list>
     </option>
   </component>
@@ -250,20 +250,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529774762549</updated>
-    </task>
-    <task id="LOCAL-00026" summary="class based view">
-      <created>1534357687012</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1534357687012</updated>
-    </task>
-    <task id="LOCAL-00027" summary="build in functions like: get_context_data">
-      <created>1534358912415</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1534358912415</updated>
     </task>
     <task id="LOCAL-00028" summary="case if no tweets yet">
       <created>1534358985216</created>
@@ -594,7 +580,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535890571068</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="media list view">
+      <created>1535906928227</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1535906928227</updated>
+    </task>
+    <task id="LOCAL-00076" summary="bootstrap search form">
+      <created>1535907080839</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1535907080839</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -624,8 +624,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Delete View" />
-    <MESSAGE value="Delete View working" />
     <MESSAGE value="clean up" />
     <MESSAGE value="url" />
     <MESSAGE value="mixins" />
@@ -649,7 +647,9 @@
     <MESSAGE value="tweet list inherited" />
     <MESSAGE value="update inherited" />
     <MESSAGE value="template inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="template inheritance" />
+    <MESSAGE value="media list view" />
+    <MESSAGE value="bootstrap search form" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap search form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -864,13 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tweets/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -937,17 +930,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html">
+    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/list_view.html">
+    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/search_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="357">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tweets/templates/tweets/tweet_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
